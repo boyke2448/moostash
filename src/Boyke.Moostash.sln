@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boyke_Moostash_Api", "Boyke
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boyke.Moostash.Client", "Boyke.Moostash.Client\Boyke.Moostash.Client.csproj", "{0B0C107D-9822-493B-8FD7-13BBA84514DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boyke.StaticWebAppAuthentication", "Boyke.StaticWebAppAuthentication\Boyke.StaticWebAppAuthentication.csproj", "{DFB03264-1DCF-48EA-9B8C-BB5F129460CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{0B0C107D-9822-493B-8FD7-13BBA84514DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B0C107D-9822-493B-8FD7-13BBA84514DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B0C107D-9822-493B-8FD7-13BBA84514DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB03264-1DCF-48EA-9B8C-BB5F129460CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB03264-1DCF-48EA-9B8C-BB5F129460CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB03264-1DCF-48EA-9B8C-BB5F129460CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB03264-1DCF-48EA-9B8C-BB5F129460CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
