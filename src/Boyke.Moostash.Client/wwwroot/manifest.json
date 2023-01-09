@@ -1,7 +1,6 @@
 {
-    "name": "ComponentsWebAssembly-CSharp",
-    "short_name": "ComponentsWebAssembly-CSharp",
-    "id": "./",
+    "name": "Moostash",
+    "short_name": "Moostash",
     "start_url": "./",
     "display": "standalone",
     "background_color": "#ffffff",
