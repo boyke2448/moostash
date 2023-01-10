@@ -10,6 +10,15 @@ const cacheNamePrefix = 'offline-cache-';
 const cacheName = `${cacheNamePrefix}${self.assetsManifest.version}`;
 const offlineAssetsInclude = [ /\.dll$/, /\.pdb$/, /\.wasm/, /\.html/, /\.js$/, /\.json$/, /\.css$/, /\.woff$/, /\.png$/, /\.jpe?g$/, /\.gif$/, /\.ico$/, /\.blat$/, /\.dat$/ ];
 const offlineAssetsExclude = [ /^service-worker\.js$/ ];
+const navHandler = createHandlerBoundToURL('/index.html');
+const navigationRoute = new NavigationRoute(navHandler, {
+  denylist: [
+    new RegExp('^/images/'),
+    new RegExp('^/static/'),
+    new RegExp('^/.auth/'),
+  ],
+});
+registerRoute(navigationRoute);
 
 async function onInstall(event) {
     console.info('Service worker: Install');
